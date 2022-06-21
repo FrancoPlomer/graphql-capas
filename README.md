@@ -1,1 +1,1 @@
-# graphql-capas
+graphql agregado sobre la ruta de productos
