@@ -1,0 +1,50 @@
+{
+  "type": "module",
+  "name": "proyectobackend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/server.js",
+    "watch": "nodemon src/server.js -e ejs,html,js,json",
+    "test": "mocha index.test.js",
+    "test-manual": "node src/server.js --modo test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^2.0.0-16",
+    "assert": "^2.0.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cluster": "^0.7.7",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "express-session": "^1.17.3",
+    "firebase-admin": "^10.0.2",
+    "fs": "0.0.1-security",
+    "got": "^12.1.0",
+    "graphql": "^16.5.0",
+    "mongodb": "^4.1.0",
+    "mongoose": "^6.2.6",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.3",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pm2": "^5.2.0",
+    "twilio": "^3.77.0",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.3"
+  }
+}
